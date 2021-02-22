@@ -1,0 +1,6 @@
+CREATE TABLE `practice`.`employee_jsp` (
+  `empid` INT NOT NULL AUTO_INCREMENT,
+  `ename` VARCHAR(45) NULL,
+  `esal` INT NULL,
+  `eaddrs` VARCHAR(45) NULL,
+  PRIMARY KEY (`empid`));

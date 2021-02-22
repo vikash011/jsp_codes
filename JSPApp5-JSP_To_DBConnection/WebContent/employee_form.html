@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Form</title>
+
+</head>
+<body>
+	<h1 align="center" style="color: red">-:Employee Registration:-</h1>
+
+	<form action="empurl" method="post">
+
+		<table style="background-color: cyan" align="center">
+
+			<tr>
+				<td><label for="name">Employee Name:</label></td>
+				<td><input type="text" name="ename"></td>
+			</tr>
+			<tr>
+				<td><label for="addrs">Employee Address:</label></td>
+				<td><input type="text" name="eaddrs"></td>
+			</tr>
+			<tr>
+				<td><label for="esal">Employee Salary:</label></td>
+				<td><input type="text" name="esal"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="s1" value="register"></td>
+				<td><a href="empurl?s1=link">GetAllEmployees</a></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
